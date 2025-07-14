@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+/* HEADER */
+.main-header {
+  margin-top: 30px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #abfdab;
+  border-bottom: 5px solid #004206;
+
+}
+
+.main-title {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 40px;
+}
+
+/* .navigation-links {
+  box-sizing: border-box;
+} */
+
+.link {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 15px;
+  background-color: #68ff68;
+  color: #004206;
+  border-radius: 10px 100px / 120px;
+  text-decoration: none;
+  font-size: 20px;
+  border: 3px solid transparent;
+}
+
+.link:hover {
+  border: 3px solid #002e04;
+  color: #002e04;
+}
+
+/* ARTICLE */
+.main-content {
+  box-sizing: border-box;
+  padding: 30px 15px;
+  background-color: #abfdab63;
+
+}
+
+.content-info {
+  display: inline-block;
+  margin-bottom: 2.5%;
+}
+
+.content-info-donate {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin-right: 75px;
+}
+
+.content-image {
+  width: 100%;
+  margin-top: 2.5%;
+}
+
+.alt-image {
+  font-size: 18px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.donate-header {
+  font-size: 25px;
+}
+
+.click-link {
+  text-decoration: none;
+  color: #002e04;
+}
+
+.click-link:hover {
+  color: rgb(0, 255, 21);
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.click-link:active {
+  color: rgb(255, 255, 255);
+}
+
+.content-info p {
+  font-size: 25px;
+  background-color: #abfdab;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 5%;
+}
+
+p {
+  font-size: 22px;
+  font-style: normal;
+  color: #363636;
+}
+
+ol,
+ul,
+li {
+  padding-left: 2.5%;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+
+
+.content-cause {
+  margin-left: 2.5%;
+}
+
+.side-content {
+  display: flex;
+  gap: 5%;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #01920d;
+  padding: 15px;
+  gap: 20px;
+  display: flex;
+}
+
+.footer p {
+  color: #aeffb2;
+  font-size: 18px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #72ff79;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #45ff4f;
+}
+
+.footer-link {
+  display: block;
+  margin-bottom: 5px;
+}
